@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="options.css" />
+    <title>Timestamp Prompt — Settings</title>
+  </head>
+  <body>
+    <main>
+      <h1>Timestamp Prompt</h1>
+      <p class="subtitle">Settings sync across devices via your Chrome profile.</p>
+
+      <section>
+        <h2>Format</h2>
+        <div class="format-grid">
+          <label><input type="radio" name="format" value="iso" /> <span><strong>ISO-like</strong><code>[2026-05-15 14:32:07 CDT]</code></span></label>
+          <label><input type="radio" name="format" value="us" /> <span><strong>US</strong><code>[05/15/2026 02:32:07 PM CDT]</code></span></label>
+          <label><input type="radio" name="format" value="eu" /> <span><strong>EU</strong><code>[15/05/2026 14:32:07 CDT]</code></span></label>
+          <label><input type="radio" name="format" value="custom" /> <span><strong>Custom</strong></span></label>
+        </div>
+
+        <div class="custom-row">
+          <label for="customFormat">Custom format string</label>
+          <input id="customFormat" type="text" spellcheck="false" />
+          <div class="tokens">
+            Tokens: <code>YYYY</code> <code>MM</code> <code>DD</code> <code>HH</code> <code>mm</code> <code>ss</code> <code>TZ</code> <code>ZZ</code>
+          </div>
+        </div>
+
+        <div class="preview-row">
+          <span class="preview-label">Preview</span>
+          <code id="preview"></code>
+        </div>
+      </section>
+
+      <section>
+        <h2>Sites</h2>
+        <p class="hint">Choose where the extension should run.</p>
+        <ul class="sites">
+          <li><label><input type="checkbox" data-site="chatgpt" /> ChatGPT (chatgpt.com, chat.openai.com)</label></li>
+          <li><label><input type="checkbox" data-site="claude" /> Claude (claude.ai)</label></li>
+          <li><label><input type="checkbox" data-site="gemini" /> Gemini (gemini.google.com)</label></li>
+          <li><label><input type="checkbox" data-site="grok" /> Grok (grok.com)</label></li>
+        </ul>
+      </section>
+
+      <footer>
+        <span id="saved-indicator"></span>
+      </footer>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>

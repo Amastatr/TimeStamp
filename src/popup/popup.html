@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Timestamp Prompt</title>
+  </head>
+  <body>
+    <header>
+      <h1>Timestamp Prompt</h1>
+    </header>
+
+    <section class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="enabled" />
+        <span class="slider"></span>
+      </label>
+      <span id="status-label">Enabled</span>
+    </section>
+
+    <section class="preview">
+      <div class="preview-label">Preview</div>
+      <code id="preview"></code>
+    </section>
+
+    <footer>
+      <button id="open-options" class="link">Settings</button>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
