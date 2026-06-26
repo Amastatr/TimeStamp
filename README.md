@@ -36,6 +36,18 @@ These sites redraw their composers every few months. If stamping
 silently stops on one site, its selectors in src/content/ need a
 one-line update. Voice and dictation submits are not intercepted.
 
+## Icons
+
+A graphite tile with a white JetBrains Mono "T" framed by crimson bracket ticks, bundled in `icons/` at 16, 32, 48, and 128 px. The bracket is the mark the Optimizers share; GeoStamp carries the same tile with a "G". The tiles are transparent outside the rounded shape, so they sit cleanly on a light or dark toolbar, and the ticks drop away at 16 px to keep the letter crisp. To use your own art, replace the four PNGs in `icons/` at the same sizes; no manifest change is needed.
+
+## Privacy
+
+Everything runs in your browser. No network requests of its own, no analytics, no telemetry. The only data stored is your settings, via Chrome's `storage.sync`, which Chrome syncs through your Google account. Your prompt text is never stored or transmitted by the extension. Full details: [PRIVACY.md](PRIVACY.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
 ## The Optimizers
 One of three sibling extensions, TimeStamp, GeoStamp, and
 FileStamp, by Amastatr Innovation Haus, sharing one discipline:
