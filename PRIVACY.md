@@ -29,7 +29,7 @@ You can disable the extension globally or per site from its popup and options pa
 
 ## Contact
 
-Questions about this policy: `<your-contact-email>`
+Questions about this policy: `<amastatr@protonmail.com>`
 
 ## Changes
 
