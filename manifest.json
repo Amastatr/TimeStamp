@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Timestamp Prompt",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Prepends the current date, time, and timezone to every prompt sent to ChatGPT, Claude, Gemini, and Grok.",
   "permissions": [
     "storage"

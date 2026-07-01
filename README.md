@@ -1,4 +1,6 @@
-# TimeStamp · The Optimizers
+Part of AI Contextualizers by Amastatr Innovation Haus: small Chrome extensions that add the context AI chat interfaces leave out. TimeStamp adds when, GeoStamp adds where, UserStamp adds who. Not a platform, not a fix for your workflow, just standing context supplied on every message. Overview: github.com/Amastatr
+
+# TimeStamp · AI Contextualizers
 
 Prepends the current date, time, and timezone to every prompt you
 send to ChatGPT, Claude, Gemini, and Grok.
@@ -16,7 +18,7 @@ Gemini (gemini.google.com) · Grok (grok.com)
 ## Install (unpacked)
 1. Open chrome://extensions
 2. Turn on Developer mode (top right)
-3. Click Load unpacked and select the timestamp-extension folder
+3. Click Load unpacked and select the TimeStamp folder
 4. Pin the icon for one-click access to the popup
 
 ## Settings
@@ -48,7 +50,5 @@ Everything runs in your browser. No network requests of its own, no analytics, n
 
 MIT. See [LICENSE](LICENSE).
 
-## The Optimizers
-One of three sibling extensions, TimeStamp, GeoStamp, and
-FileStamp, by Amastatr Innovation Haus, sharing one discipline:
-stamps fire once, on send only, and everything stays local.
+## AI Contextualizers
+One of three sibling extensions, TimeStamp, GeoStamp, and UserStamp, by Amastatr Innovation Haus, sharing one discipline: stamps fire once, on send only, and everything stays local.
