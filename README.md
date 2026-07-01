@@ -40,7 +40,7 @@ one-line update. Voice and dictation submits are not intercepted.
 
 ## Icons
 
-A graphite tile with a white JetBrains Mono "T" framed by crimson bracket ticks, bundled in `icons/` at 16, 32, 48, and 128 px. The bracket is the mark the Optimizers share; GeoStamp carries the same tile with a "G". The tiles are transparent outside the rounded shape, so they sit cleanly on a light or dark toolbar, and the ticks drop away at 16 px to keep the letter crisp. To use your own art, replace the four PNGs in `icons/` at the same sizes; no manifest change is needed.
+A graphite tile with a white JetBrains Mono "T" framed by crimson bracket ticks, bundled in `icons/` at 16, 32, 48, and 128 px. The bracket is the mark the Contextualizers share; GeoStamp carries the same tile with a "G". The tiles are transparent outside the rounded shape, so they sit cleanly on a light or dark toolbar, and the ticks drop away at 16 px to keep the letter crisp. To use your own art, replace the four PNGs in `icons/` at the same sizes; no manifest change is needed.
 
 ## Privacy
 
