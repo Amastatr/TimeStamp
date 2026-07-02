@@ -10,13 +10,16 @@ const DEFAULT_SETTINGS = {
   }
 };
 
-// Toolbar state badge: "ON" (green) while global stamping is enabled, cleared when off.
+// Toolbar state badge: always shows state using the AI Contextualizers suite tokens.
+// ON = "ON" on #188038; OFF = "OFF" on #C8102E; white text in both.
 function applyBadge(enabled) {
+  chrome.action.setBadgeTextColor({ color: "#FFFFFF" });
   if (enabled) {
-    chrome.action.setBadgeBackgroundColor({ color: "#16a34a" });
+    chrome.action.setBadgeBackgroundColor({ color: "#188038" });
     chrome.action.setBadgeText({ text: "ON" });
   } else {
-    chrome.action.setBadgeText({ text: "" });
+    chrome.action.setBadgeBackgroundColor({ color: "#C8102E" });
+    chrome.action.setBadgeText({ text: "OFF" });
   }
 }
 
